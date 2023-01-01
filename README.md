@@ -1,4 +1,9 @@
 # Django To Do list with user authentication
+
+[![N|Solid](https://github.com/dev-mamun/django-todo/blob/master/static/img/tasks.png)](https://github.com/dev-mamun/django-todo)
+
+![DEMO](../master/static/img/tasks.png)
+
 To Do list app contain below feature
 
 - User Registration
@@ -9,7 +14,12 @@ To Do list app contain below feature
 - Edit Task
 - Delete
 
-- Type some Markdown on the left
-- See HTML in the right
-- ✨Magic ✨
+
+
+
+
+## Installation
+
+
+
     
