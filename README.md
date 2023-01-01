@@ -2,9 +2,7 @@
 
 [![N|Solid](https://github.com/dev-mamun/django-todo/blob/master/static/img/tasks.png)](https://github.com/dev-mamun/django-todo)
 
-![DEMO](../master/static/img/tasks.png)
-
-To Do list app contain below feature
+## To Do list app contain below feature
 
 - User Registration
 - User Login
@@ -19,6 +17,21 @@ To Do list app contain below feature
 
 
 ## Installation
+
+Django To-Do List requires
+- [Django V3.2](https://www.djangoproject.com/)
+- [Python V3+](https://www.python.org/)
+
+Install the dependencies and devDependencies and start the server.
+
+```sh
+$ git clone git@github.com:dev-mamun/django-todo.git
+$ cd django-todo
+$ python3 -m venv venv
+$ source venv/bin/activate  
+(venv) $ pip install -r requirements.txt
+(venv) $ python manage.py runserver
+```
 
 
 
