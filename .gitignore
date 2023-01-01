@@ -1,0 +1,38 @@
+# IntelliJ project files
+# Editor directories and files
+.DS_Store
+.idea/*
+*.iml
+out
+*.pyc
+venv/
+node_modules/
+storage/
+static_pro/
+*.sock
+__pycache__/
+
+*.env
+.eslintrc.js
+yarn.*
+yarn-*
+/media
+static/dist/
+static/build/
+resources/views/layout/minify-js.html
+resources/views/layout/minify-css.html
+resources/assets/less/
+resources/assets/sass/
+
+package-lock.json
+
+log/
+
+
+# Visual Studio Code #
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
