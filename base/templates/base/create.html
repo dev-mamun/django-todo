@@ -1,0 +1,12 @@
+{% extends 'base/base.html' %}
+
+{% block cardheader %}
+    <a class="text-white" href="{% url 'tasks' %}">&#8592; Back</a>
+{% endblock %}
+{% block content %}
+    <form method="POST" action="">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button class="btn btn-success" type="submit">Submit</button>
+    </form>
+{% endblock %}

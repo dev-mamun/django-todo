@@ -1,0 +1,27 @@
+{% extends 'base/base.html' %}
+
+{% block cardheader %}
+    <h1 class="text-white">Login</h1>
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col">
+            <div class="form-group">
+                <form method="POST">
+                    {% csrf_token %}
+                    <div class="mb-3">
+                        <label class="form-label">{{ form.username.label }}</label>
+                        {{ form.username }}
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">{{ form.password.label }}</label>
+                        {{ form.password }}
+                    </div>
+                    <button class="btn btn-success btn-block" type="submit">Login</button>
+                </form>
+            </div>
+            <p>Don't have an account? <a href="{% url 'register' %}">Register</a></p>
+        </div>
+    </div>
+{% endblock %}
